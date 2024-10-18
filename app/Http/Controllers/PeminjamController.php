@@ -35,7 +35,7 @@ class PeminjamController extends Controller
         $request->validate([
             'nama' => 'required',
             'alamat' => 'required',
-            'no_telp' => 'required',
+            'no_telp' => 'required|numeric',
             'email' => 'required',
         ],
         [

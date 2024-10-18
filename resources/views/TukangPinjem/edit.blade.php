@@ -32,7 +32,7 @@
 
                 <div class="form-group mb-3">
                     <label for="no_telp">No HP</label>
-                    <input type="text" name="no_telp" id="no_telp" class="form-control" placeholder="Masukkan No HP" value="{{ old('no_telp', $peminjam->no_telp) }}" required>
+                    <input type="number" name="no_telp" id="no_telp" class="form-control" placeholder="Masukkan No HP" value="{{ old('no_telp', $peminjam->no_telp) }}" required>
                 </div>
 
                 <div class="form-group mb-3">
